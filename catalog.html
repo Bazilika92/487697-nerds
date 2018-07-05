@@ -266,8 +266,25 @@
           <p class = "discount">Скидка 10% для друзей из социальных сетей.</p>
         </div>
       </div>
-      
+      <section class = "comment-block">
+        <h2>Напишите нам</h2>
+        <form method = "post" action = "https://echo.htmlacademy.ru" class = "write-us">
+          <p class = "user-name">
+            <label  for = "user-name">Ваше имя:</label>
+            <input id = "user-name" type = "text" name = "user-name" placeholder = "Имя Фамилия">
+          </p>
+          <p class = "user-email">
+            <label  for = "user-email">Ваш e-mail:</label>
+            <input id = "user-email" type = "email" name = "user-email" placeholder = "email@example.com">
+          </p>
+          <p class = "comment-area">
+            <label for = "user-comment">Текст письма:</label>
+              <textarea id = "user-comment" name = "user-comment" placeholder = "В свободной форме"></textarea>
+            </p>
+          <button class = "button" type = "submit" name = "send-form">Отправить</button>
+        </form>
+        <button class = "close" type = "button" name = "close">закрыть</button>
+      </section>
     </footer>
-   
   </body>
 </html>
